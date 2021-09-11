@@ -43,7 +43,7 @@ export default function Directory() {
         <div className='directory-menu'>
           {sections.map((section, index) => {
             const {id, title, imageUrl, size, linkUrl} = section;
-             return (                
+              return (                
                 <MenuItem 
                   id={id} 
                   title={title} 
@@ -51,7 +51,7 @@ export default function Directory() {
                   size={size}
                   linkUrl={linkUrl}
                 />
-             )
+              )
           })
           }            
         </div>
